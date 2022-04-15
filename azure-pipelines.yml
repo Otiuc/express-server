@@ -35,6 +35,6 @@ steps:
   inputs:
     azureSubscription: 'Otiuc Subscription (75e19ff5-83de-433a-9b47-7641971a81d5)'
     appType: 'webApp'
-    appName: 'otiucwhatsappmessenger'
+    appName: 'otiuc-express-server'
     package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     deploymentMethod: 'auto'
